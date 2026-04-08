@@ -20,7 +20,7 @@ Nginx is configured as the primary web server serving webapp.local on port 80 wi
 
 Apache is configured on port 8080 to avoid conflict with Nginx. A .htaccess file handles URL redirection using mod_rewrite, redirecting /home to the root path with a 301 permanent redirect.
 Both servers serve the same static HTML files from separate directories.All configuration files are version controlled using Git with a feature branch workflow,
-ensuring clean commit history and easy rollback.
+ensuring clean commit history and easy rollback.Both Nginx (port 80) and Apache (port 8080) successfully tested with curl.
 
 ##Author
 Aayush Shrestha - DevOps Training Week 2 Assignment
